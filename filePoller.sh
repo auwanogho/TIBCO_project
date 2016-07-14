@@ -42,7 +42,6 @@ ${BW_ADMIN} start -d automic -a automicSpace -appnode macAppNode
 if [ $? -eq 0 ]; then
         Echo 'macAppNode Started'
 	sleep 5
-	Echo \n	
 fi
 
 # Deploy Application

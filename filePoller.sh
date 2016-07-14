@@ -1,11 +1,11 @@
 #!/bin/bash
 #
-BW_HOME=/Users/AUwanogho/Desktop/tibco/home/bw/6.3/bin
-BW_ADMIN=/Users/AUwanogho/Desktop/tibco/home/bw/6.3/bin/bwadmin
+BW_HOME=/Users/AUwanogho/Desktop/tibco/home/bw/6.3
+BW_ADMIN=${BW_HOME/bin/bwadmin
+WORKSPACE=/Users/Shared/Jenkins/Home/workspace/Tibco_FilePoller
 
-#BW_ADMIN=./bwadmin
 HTTP_PORT=2223
-cwd=$(pwd)
+
 # Run bwadmin from CWD
 cd ${BW_HOME}
 
@@ -32,7 +32,7 @@ fi
 
 # Upload application archive (.ear)
 #${BW_ADMIN} upload -d automic /Users/AUwanogho/filepoller/FilePoller.application_1.0.0.ear
-${BW_ADMIN} upload -d automic ${cwd}/${EAR_FILE}
+${BW_ADMIN} upload -d automic ${WORKSPACE}/${EAR_FILE}
 if [ $? -eq 0 ]; then
       Echo 'Successfully uploaded .ear archive'
 fi

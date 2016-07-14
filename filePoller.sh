@@ -7,7 +7,7 @@ BW_ADMIN=/Users/AUwanogho/Desktop/tibco/home/bw/6.3/bin/bwadmin
 HTTP_PORT=2223
 cwd=${pwd}
 # Run bwadmin from CWD
-#cd ${BW_HOME}
+cd ${BW_HOME}
 
 # Create the .EAR archive file from application
 EAR_FILE=FilePoller.application_1.0.0.ear

@@ -2,6 +2,8 @@
 #
 BW_HOME=/Users/AUwanogho/Desktop/tibco/home/bw/6.3/bin
 BW_ADMIN=/Users/AUwanogho/Desktop/tibco/home/bw/6.3/bin/bwadmin
+# For permission errors in jenkins
+chmod 766 ${BW_ADMIN}
 #BW_ADMIN=./bwadmin
 HTTP_PORT=2223
 # Run bwadmin from CWD

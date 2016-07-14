@@ -8,7 +8,7 @@ HTTP_PORT=2223
 cd ${BW_HOME}
 
 # Create the .EAR archive file from application
-
+EAR_FILE=FilePoller.application_1.0.0.ear
 
 # Create automic domain
 ${BW_ADMIN} create domain automic
@@ -29,7 +29,8 @@ if [ $? -eq 0 ]; then
 fi
 
 # Upload application archive (.ear)
-${BW_ADMIN} upload -d automic /Users/AUwanogho/filepoller/FilePoller.application_1.0.0.ear
+#${BW_ADMIN} upload -d automic /Users/AUwanogho/filepoller/FilePoller.application_1.0.0.ear
+${BW_ADMIN} upload -d automic ${EAR_FILE}
 if [ $? -eq 0 ]; then
       Echo 'Successfully uploaded .ear archive'
 fi

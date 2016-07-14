@@ -1,7 +1,7 @@
 #!/bin/bash
 #
 BW_HOME=/Users/AUwanogho/Desktop/tibco/home/bw/6.3
-BW_ADMIN=${BW_HOME/bin/bwadmin
+BW_ADMIN=${BW_HOME}/bin/bwadmin
 WORKSPACE=/Users/Shared/Jenkins/Home/workspace/Tibco_FilePoller
 
 HTTP_PORT=2223

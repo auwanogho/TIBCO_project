@@ -5,7 +5,7 @@ BW_ADMIN=/Users/AUwanogho/Desktop/tibco/home/bw/6.3/bin/bwadmin
 
 #BW_ADMIN=./bwadmin
 HTTP_PORT=2223
-cwd=${pwd}
+cwd=pwd
 # Run bwadmin from CWD
 cd ${BW_HOME}
 

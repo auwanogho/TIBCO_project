@@ -1,13 +1,13 @@
 #!/bin/bash
 #
-BW_HOME=/Users/AUwanogho/Desktop/tibco/home/bw/6.3
-BW_ADMIN=${BW_HOME}/bin/bwadmin
+BW_HOME_BIN=/Users/AUwanogho/Desktop/tibco/home/bw/6.3/bin
+BW_ADMIN=${BW_HOME_BIN}/bwadmin
 WORKSPACE=/Users/Shared/Jenkins/Home/workspace/Tibco_FilePoller
 
 HTTP_PORT=2223
 
 # Run bwadmin from CWD
-cd ${BW_HOME}
+cd ${BW_HOME_BIN}
 
 # Create the .EAR archive file from application
 EAR_FILE=FilePoller.application_1.0.0.ear

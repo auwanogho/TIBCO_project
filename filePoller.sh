@@ -7,7 +7,7 @@ chmod 766 ${BW_ADMIN}
 #BW_ADMIN=./bwadmin
 HTTP_PORT=2223
 # Run bwadmin from CWD
-#cd ${BW_HOME}
+cd ${BW_HOME}
 
 # Create the .EAR archive file from application
 EAR_FILE=FilePoller.application_1.0.0.ear

@@ -4,7 +4,7 @@ BW_HOME_BIN=/Users/AUwanogho/Desktop/tibco/home/bw/6.3/bin
 BW_ADMIN=${BW_HOME_BIN}/bwadmin
 WORKSPACE=/Users/Shared/Jenkins/Home/workspace/Tibco_FilePoller
 
-HTTP_PORT=2224
+HTTP_PORT=2225
 
 # Run bwadmin from CWD
 cd ${BW_HOME_BIN}
